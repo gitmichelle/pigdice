@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Coiny|Overlock|Quicksand|Bungee+Shade" rel="stylesheet">
+  <title>Pig Dice</title>
+</head>
+  <body>
+      <div id="landingPage">
+        <div id="wellHeight">
+          <h1>Welcome to Pigu Dice!</h1>
+          <p id="intro">The rules of the game are simple:</p>
+          <ul id="centerList">
+            <li>Each time you roll the dice, you accumulate points</li>
+            <li>Roll a "1" and your tally score is reset</li>
+            <li>Rolling a "1" means you lose your turn</li>
+            <li>If you pass, tallied points are added to your score</li>
+            <li>First to 100 wins the game!</li>
+          </ul>
+          <br>
+          <button type="button" class="btn btn-danger btn-lg" id="buttonIntro">Play Game!</button>
+        </div>
+        <img src="img/pigTop.jpg" alt="pigFace"/>
+        <p><img src="img/resized-wall.png" alt="brick wall"/><p>
+
+        </div>
+      </div>
+    <div class="container">
+      <div id="gamepage">
+        <div class="jumbotron">
+          <h1>Pigu Dice</h1>
+        </div>
+        <img src="img/pigTop.jpg" alt="pigFace" id="leftPigu"/>
+        <img src="img/pigTop.jpg" alt="pigFace" id="rightPigu"/>
+        <div class="row" id="brickwall">
+          <div class="col-md-2">
+          </div>
+          <div class="col-md-4" id="player-one">
+            <div class="well" id="pOneWell">
+              <h2><span id="playerOneScore"></span></h2>
+            </div>
+            <div class="welltext">
+              <p class="displayText">Player 1 Score</p>
+            </div>
+          </div>
+          <div class="col-md-4" id="player-two">
+            <div class="well" id="pTwoWell">
+              <h2><span id="playerTwoScore"></span></h2>
+            </div>
+            <div class="welltext">
+              <p class="displayText">Player 2 Score</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+          </div>
+        </div>
+          <div class="row">
+            <div class="col-md-12 well" id="display">
+              <p id="currentScore">Current Score <span id="turnScore"></span></p>
+              <br>
+              <span id="diceDisplay"></span>
+
+              <div class="row">
+                  <div class="col-md-6" id="rollButtonOne">
+                      <span class="playerOneArea"><button type="button" class="btn btn-default btn-lg pull-right">Roll</button></span>
+                  </div>
+                  <div class="col-md-6" id="passButtonOne">
+                      <span class="playerOneArea"><button type="button" class="btn btn-default btn-lg pull-left">Pass</button></span>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6" id="rollButtonTwo">
+                  <span class="playerTwoArea"><button type="button" class="btn btn-default btn-lg pull-right">Roll</button></span>
+                </div>
+                <div class="col-md-6" id="passButtonTwo">
+                  <span class="playerTwoArea"><button type="button" class="btn btn-default btn-lg pull-left">Pass</button></span>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div id="winnerPage">
+        <p id="winnerFont">Congratulations!</p>
+        <p id="flashy">You are the winner!</p>
+        <br>
+        <img src="img/giantpig.gif" alt="giant pig" id="centerImage"/>
+        <button type="button" class="btn btn-success btn-lg" id="returnToGame">Play Again</button>
+      </div>
+    </div>
+  </body>
+</html>

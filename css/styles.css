@@ -1,0 +1,197 @@
+.playerTwoArea {
+  display: none;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Coiny', cursive;
+}
+
+#winnerFont {
+  font-family: 'Coiny', cursive;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+#player-one, #player-two {
+  padding-top: 40px;
+  text-align: center;
+  height: 300px;
+  font-family:'Overlock', cursive;
+}
+
+#intro {
+  text-align: center;
+  font-size: 30px;
+}
+
+.displayText {
+  margin-bottom: 20px;
+  font-family: 'Bungee Shade', sans-serif;
+  font-weight: bolder;
+  text-shadow: 1px 1px grey;
+  font-size: 30px;
+}
+
+#wellHeight {
+  background-image: url("../img/bubble.png");
+  width: 702px;
+  height: 543px;
+  padding: 50px;
+  margin-top: 60px;
+  margin-left: 180px;
+}
+
+#display {
+  text-align: center;
+  background-image: url("../img/felt.png");
+  background-color: #cccccc;
+  /*padding: 50px;*/
+  font-size: 20pt;
+  border-style: solid;
+  border-color: black;
+  width: 1170px;
+  height: 400px;
+  padding-bottom: 30px;
+}
+
+#feltBckgd {
+
+}
+
+#pOneWell, #pTwoWell{
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  border-width: 5px;
+  border-style: inset;
+}
+
+.bouncerLeft {
+    position: absolute;
+    width: 305px;
+    height: 283px;
+    background-image: url("../img/pigLeft");
+}
+
+.results {
+    float: left;
+}
+
+
+#buttonIntro {
+  margin-left: 40%;
+}
+
+.imageResize {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 50px;
+}
+
+#leftPigu {
+  margin-left: 20%;
+  margin-right: 60%;
+}
+
+#rightPigu {
+  margin-left: 55%;
+  margin-right: 25%;
+  display: none;
+}
+
+#diceOne, #diceTwo, #diceThree, #diceFour, #diceFive, #diceSix {
+  display: none;
+}
+
+#brickWallLanding {
+  height:200px;
+
+}
+
+#brickwall {
+  background-image: url("../img/background.jpg");
+
+}
+
+#centerList {
+  font-size: 19px;
+  margin-left: 90px;
+  font-family:'Overlock', cursive;
+}
+
+#gamepage {
+  display: none;
+}
+
+#landingPage {
+  margin-left: 25%;
+  font-family: 'Coiny', cursive;
+}
+
+#currentScore {
+  color: white;
+  font-family:'Coiny', cursive;
+  font-size: 50px;
+}
+
+#diceDisplay {
+  padding-bottom: 20px;
+}
+
+#returnToGame {
+  margin-left: 45%;
+}
+
+#centerImage {
+  margin-left: 27%;
+  margin-bottom: 50px;
+}
+
+#flashy {
+  text-align: center;
+  font-size: 40pt;
+	-webkit-animation: blink .75s linear infinite;
+	-moz-animation: blink .75s linear infinite;
+	-ms-animation: blink .75s linear infinite;
+	-o-animation: blink .75s linear infinite;
+	 animation: blink .75s linear infinite;
+}
+@-webkit-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-moz-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-ms-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@-o-keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
+@keyframes blink {
+	0% { opacity: 1; }
+	50% { opacity: 1; }
+	50.01% { opacity: 0; }
+	100% { opacity: 0; }
+}
