@@ -10,12 +10,6 @@ _This is a program where two users can play Pig dice against each other. Each pl
 
 ## Behavior Driven Development
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
 * _Create a roll function that randomizes a number 1-6._
 * _Assign a push to turnScore each time dice are rolled if dice does not equal 1._
 * _Create a pass function that toggles between players._
