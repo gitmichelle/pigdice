@@ -8,6 +8,11 @@
 
 _This is a program where two users can play Pig dice against each other. Each player takes turns rolling the dice. Each time a player rolls, they accumulate points. If they pass then the points are added to their score. If they roll a "1" then their running total will be lost and they lose your turn. First to 100 wins the game._
 
+## Setup/Installation Requirements
+
+* _[Click here] (https://gitmichelle.github.io/pigdice/) to view on gh-pages._
+* _Clone repository `https://github.com/gitmichelle/pigdice.git`
+
 ## Behavior Driven Development
 
 * _Create a roll function that randomizes a number 1-6._
