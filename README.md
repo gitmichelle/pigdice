@@ -10,7 +10,7 @@ _This is a program where two users can play Pig dice against each other. Each pl
 
 ## Setup/Installation Requirements
  
- * _[Click here] (https://gitmichelle.github.io/pigdice/) to view on gh-pages._
+ * _[Click here](https://gitmichelle.github.io/pigdice/) to view on gh-pages._
  * _Clone repository `https://github.com/gitmichelle/pigdice.git`
 
 ## Behavior Driven Development
